@@ -1,4 +1,3 @@
-
 -- UI Customization DiagnosticSign
 local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
 for type, icon in pairs(signs) do
