@@ -38,6 +38,7 @@ return packer.startup({
 		use("bluz71/vim-nightfly-guicolors")
 		use({ "ellisonleao/gruvbox.nvim" })
 		use("navarasu/onedark.nvim")
+		use({ "catppuccin/nvim", as = "catppuccin" })
 
 		-- Icons
 		use("kyazdani42/nvim-web-devicons")
@@ -111,6 +112,14 @@ return packer.startup({
 		-- Manager/Installer LSP servers
 		use("williamboman/mason.nvim")
 		use("williamboman/mason-lspconfig.nvim")
+
+		-- lsp for java
+		use({ "mfussenegger/nvim-jdtls" })
+
+		--Debugging java
+		use("mfussenegger/nvim-dap")
+		use({ "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } })
+		use("rcarriga/cmp-dap")
 
 		-- LSP servers
 		use("neovim/nvim-lspconfig")

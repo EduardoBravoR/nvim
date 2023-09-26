@@ -32,10 +32,10 @@ nvimtree.setup({ -- BEGIN_DEFAULT_OPTS -- require("nvim-tree")
 	view = {
 		adaptive_size = false,
 		centralize_selection = false,
-		width = 30,
+		width = 35,
 		height = 30,
 		hide_root_folder = false,
-		side = "right",
+		side = "left",
 		preserve_window_proportions = false,
 		number = false,
 		relativenumber = false,

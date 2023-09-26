@@ -26,10 +26,10 @@ mason_lspconfig.setup({
 		"html",
 		"cssls",
 		"tailwindcss",
-		"sumneko_lua",
+		"lua_ls",
 		"clangd",
 		"pyright",
-		-- "jdtls",
+		"jdtls",
 		-- "marsksman",
 	},
 	-- auto-install configured servers (with lspconfig)
